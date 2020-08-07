@@ -1,1 +1,185 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+  /*   border:1px solid grey; */
+  }
+  html{
+    font-size:110.5%;
+  }
+  body{
+    font-size:2.6rem;
+    font-family: 'Red Rose', monospace;
+    line-height:2.5;
+  }
+  h2{
+    font-size:1.6rem;
+    font-weight:normal;
+  }
+  h1{
+    font-family: 'Red Rose', cursive;
+    font-size:4rem;
+    letter-spacing:2px;
+  }
+  section, footer{
+    padding:4% 0;
+  }
+  a{
+    text-decoration:none;
+    color:#fff;
+    display:inline-block;
+    width:20%;
+    text-align:center;
+    border-radius:10px;
+  }
+  span{
+    font-weight:bolder;
+  }
+  /*header section styles*/
+  nav{
+    display:flex;
+    justify-content:space-evenly;
+    padding:2% 0;
+  }
+  .orange{
+    background-color:#FF764E;
+    transition:2s;
+  }
+  .orange:hover{
+    color:#FF764E;
+    border:2px solid #FF764E;
+    background-color:#fff;
+  }
+  .blue{
+    background-color:black;
+    transition:2s;
+  }
+  .blue:hover{
+    background-color:#fff;
+    color:black;
+    border:2px solid #5ED3EB;
+  }
+  .yellow{
+    background-color:black;
+    transition:2s;
+  }
+  .yellow:hover{
+    background-color:#fff;
+    color:black;
+    border:2px solid #FFCD69;
+  }
+  .headWrapper{
+    display:flex;
+    justify-content:space-around;
+    padding:4% 0;
+  }
+  
+  .left{
+    width:40%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .img{
+    width:60%;
+  }
+  .left img{
+    border-radius:50%;
+  }
+  .right{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .right .text{
+    text-align:center;
+    width:90%;
+  }
+  /*about section styles*/
+  
+  .textOne{
+    width:95%;
+    background-color:lightblue;
+    margin:0 auto;
+    padding:2%;
+    color:#fff;
+  }
+  .textOne p{
+    margin: 2% 0;
+  }
+  
+  /*plan section styles*/
+  #plan{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .box{
+    width:35%;
+    margin:4% 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+  .box img{
+    width:60%;
+  }
+  
+  
+  .hero-image{
+    background-image:url('https://picsum.photos/id/870/200/300?grayscale&blur=2');
+    background-size:cover;
+    background-position:top;
+    height:40vh;
+  }
+  
+  footer{
+    background-color:lightblue;
+  }
